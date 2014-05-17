@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="entity relationship">
+        <glyph class="entity" id="a49d5">
+            <label text="E2"/>
+            <bbox w="70.0" h="30.0" x="327.0" y="78.0"/>
+        </glyph>
+        <glyph class="entity" id="e6f61">
+            <label text="E1"/>
+            <bbox w="70.0" h="30.0" x="319.0" y="330.0"/>
+            <glyph class="state variable" id="ec571">
+                <label text=""/>
+                <bbox w="25.0" h="25.0" x="341.5" y="317.5"/>
+            </glyph>
+        </glyph>
+        <arc class="assignment" id="d0103" source="a49d5" target="ec571">
+            <start x="362.0" y="108.0"/>
+            <end x="354.0" y="317.5"/>
+        </arc>
+    </map>
+</sbgn>

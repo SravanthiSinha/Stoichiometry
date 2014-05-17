@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://genmapp.org/GPML/2010a" Name="New Pathway" Version="20120602">
+  <Attribute Key="org.pathvisio.sbgn.language" Value="process description" />
+  <Graphics BoardWidth="879.0" BoardHeight="640.0" />
+  <DataNode TextLabel="1" GraphId="e9f28">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="unspecified entity" />
+    <Graphics CenterX="159.0" CenterY="185.0" Width="70.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="3" GraphId="cbfd3">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="unspecified entity" />
+    <Graphics CenterX="506.0" CenterY="163.0" Width="70.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="2" GraphId="ac901">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="simple chemical" />
+    <Graphics CenterX="181.0" CenterY="92.0" Width="30.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="" GraphId="fc74b">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="unspecified entity" />
+    <Graphics CenterX="530.0" CenterY="63.0" Width="70.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="" GraphId="c8c76">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="simple chemical" />
+    <Graphics CenterX="797.0" CenterY="365.0" Width="30.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Line GraphId="id87c3f167">
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="268.0" Y="170.0" GraphRef="c6f5e" RelX="-5.0" RelY="0.0" />
+      <Point X="300.0" Y="170.0" GraphRef="c6f5e" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c11a9" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id9ee6827f">
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="348.0" Y="170.0" GraphRef="c6f5e" RelX="5.0" RelY="0.0" />
+      <Point X="316.0" Y="170.0" GraphRef="c6f5e" RelX="1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="baf07" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id12061bf3">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="194.0" Y="185.0" GraphRef="e9f28" RelX="1.0" RelY="0.0" />
+      <Point X="268.0" Y="170.0" GraphRef="c11a9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id97653546">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="production" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="348.0" Y="170.0" GraphRef="baf07" RelX="0.0" RelY="0.0" />
+      <Point X="471.0" Y="163.0" GraphRef="cbfd3" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Production" />
+    </Graphics>
+  </Line>
+  <Line GraphId="idd6039df6">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="181.0" Y="107.0" GraphRef="ac901" RelX="0.0" RelY="1.0" />
+      <Point X="268.0" Y="170.0" GraphRef="c11a9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id3fbf8cc4">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="catalysis" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="495.0" Y="70.5" GraphRef="fc74b" RelX="-1.0" RelY="0.5" />
+      <Point X="308.0" Y="162.0" GraphRef="c6f5e" RelX="0.0" RelY="-1.0" ArrowHead="SBGN-Catalysis" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id487a52f">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="506.0" Y="178.0" GraphRef="cbfd3" RelX="0.0" RelY="1.0" />
+      <Point X="679.0" Y="253.0" GraphRef="f4bd8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id67b2f177">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="production" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="759.0" Y="253.0" GraphRef="fe32a" RelX="0.0" RelY="0.0" />
+      <Point X="782.0" Y="357.5" GraphRef="c8c76" RelX="-1.0" RelY="-0.5" ArrowHead="SBGN-Production" />
+    </Graphics>
+  </Line>
+  <Line GraphId="idac674ee4">
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="679.0" Y="253.0" GraphRef="c0a6a" RelX="-5.0" RelY="0.0" />
+      <Point X="711.0" Y="253.0" GraphRef="c0a6a" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f4bd8" />
+    </Graphics>
+  </Line>
+  <Line GraphId="id711280fb">
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="759.0" Y="253.0" GraphRef="c0a6a" RelX="5.0" RelY="0.0" />
+      <Point X="727.0" Y="253.0" GraphRef="c0a6a" RelX="1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe32a" />
+    </Graphics>
+  </Line>
+  <Label TextLabel="" GraphId="c6f5e">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="process" />
+    <Graphics CenterX="308.0" CenterY="170.0" Width="16.0" Height="16.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Rectangle" />
+  </Label>
+  <Label TextLabel="" GraphId="c0a6a">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="process" />
+    <Graphics CenterX="719.0" CenterY="253.0" Width="16.0" Height="16.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Rectangle" />
+  </Label>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+</Pathway>
+
